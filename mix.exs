@@ -33,7 +33,7 @@ defmodule Nadia.Mixfile do
   defp deps do
     [
       {:httpoison, "~> 1.5"},
-      {:poison, "~> 4.0"},
+      {:poison, "~> 3.0"},
       {:exvcr, "~> 0.10.1", only: [:dev, :test]},
       {:earmark, "~> 1.2", only: :docs},
       {:ex_doc, "~> 0.18.3", only: :docs},
